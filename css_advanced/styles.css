@@ -1,0 +1,281 @@
+body {
+    font-family: source sans pro;
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.get_schooled {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.get_schooled h1 {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 60px;
+    color: #fff;
+}
+.get_schooled .span_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.get_schooled span{
+    color: #fff;
+    font-size: 16px;
+    margin-right: 40px;
+}
+.get_schooled button {
+    padding: 10px 20px;
+    background-color: #C271FF;
+    margin-top: 38px;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    align-content: center;
+    align-self: center;
+}
+.bold {
+    font-weight: bold;
+    font-size: 32px;
+    color: #C271FF;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+    
+}
+
+.pros {
+    padding-left: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro {
+    flex: 1;
+    align-items: center;
+}
+
+.pros > .pro h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pros > .pro p {
+    color: #fff;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+}
+
+ .testimonial {
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    text-align: left;
+ }
+
+ .quote {
+    text-align: left;
+    margin-left: 5px;
+    font-size: large;
+ }
+
+ .testimony {
+    margin-left: -50px;
+ }
+
+ .testimony p {
+    color: #fff;
+    font-style: italic;
+    text-align: left;
+ }
+
+ .tutors {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+    margin: 50px;
+ }
+
+ .tutors .play {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+ }
+
+ .tutor h3 p {
+    color: #071629;
+ }
+
+ .rating_time > .time {
+    color: #C271FF;
+ }
+
+ .tutorials {
+    background-color: #fff;
+ }
+
+ .tutorials .tut_heading {
+    font-size: 30px;
+    color: #071629;
+    text-align: center;
+    font-weight: 400;
+ }
+
+ .tutorials span {
+    color: #C271FF;
+ }
+ .review {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+}
+
+.review h4 {
+    color: #c271ff;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating > .purple {
+    color: #c271ff;
+}
+
+.rating > .grey {
+    color: #D8D8D8;
+}
+
+.rating_time {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+}
+
+.membership {
+    background-color: #071629;
+    text-align: center;
+    height: 20rem;
+}
+
+.membership h2, p {
+    color: white;
+    text-align: center;
+
+}
+
+.membership span {
+    color: #c271ff;
+}
+
+.ads {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    border: 1px solid #c271ff;
+    border-radius: 50px;
+    background-color: #c271ff;
+    color: white;
+    padding: 10px 10px;
+}    
+
+.FAQ {
+    color: #071629;
+}
+
+.FAQ_heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    margin-bottom: 5%;
+}
+
+.faq .opacity {
+    opacity: 0.5;
+}
+
+
+footer {
+    background-color: #071629;
+    height: 50%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer .logo {
+    height: 50%;
+    margin-left: 10%;
+}
